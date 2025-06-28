@@ -1,17 +1,46 @@
-<<<<<<< HEAD
-# React + Vite
+# 🏆 PL-Fest – Premier League Fixtures & Standings
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PL-Fest** adalah website yang menampilkan **jadwal pertandingan** dan **klasemen liga Inggris (Premier League)** yang diperbarui secara **dinamis setiap pekan**. Website ini dirancang untuk para penggemar sepak bola yang ingin memantau perkembangan liga dengan tampilan yang cepat, ringan, dan responsif.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚽ Fitur Utama
 
-## Expanding the ESLint configuration
+- 📅 **Jadwal Pertandingan Mingguan**  
+  Menampilkan semua jadwal pertandingan Premier League minggu berjalan secara otomatis.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# pl-fest
-a website that provides information about premier league schedules and standings
->>>>>>> d41315348f0eadc08324dbc7bad04a3ab90a6f12
+- 📊 **Klasemen Terbaru**  
+  Menyediakan klasemen liga yang diperbarui sesuai hasil pertandingan terkini.
+
+- 🔁 **Data Dinamis via API**  
+  Menggunakan API dari [soccer.highlightly.net](https://soccer.highlightly.net/) untuk menarik data real-time pertandingan dan klasemen.
+
+- 🎨 **Desain Modern & Responsif**  
+  Menggunakan **React.js** dan **Tailwind CSS** untuk pengalaman pengguna yang cepat dan intuitif di semua perangkat.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Highlightly Soccer API](https://soccer.highlightly.net/)
+
+---
+
+## 🚀 Instalasi & Menjalankan Proyek
+
+1. Clone repositori:
+
+```bash
+git clone https://github.com/username/pl-fest.git
+cd pl-fest
+
+2. Install depedensi
+
+npm install
+
+3. Jalankan development server:
+
+npm run dev
